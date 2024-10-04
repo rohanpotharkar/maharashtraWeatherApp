@@ -1,0 +1,18 @@
+{
+  "name": "mh_weather",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "rohan potharkar",
+  "license": "ISC",
+  "description": "this is maharashtra weather app",
+  "dependencies": {
+    "express": "^4.21.0",
+    "hbs": "^4.2.0",
+    "nodemon": "^3.1.7",
+    "request": "^2.88.2"
+  }
+}
