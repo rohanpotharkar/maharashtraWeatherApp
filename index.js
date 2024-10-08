@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const path = require("path");
 const request = require("request");
+const PORT = process.env.PORT || 3000
 
 const static_path = path.join(__dirname, "/public");
 
@@ -61,7 +62,7 @@ app.get("*", (req, res) => {
    res.render('error');
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
    console.log("Listening...");
 });
 
